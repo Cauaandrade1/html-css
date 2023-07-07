@@ -1,0 +1,105 @@
+VIDEO 12 E 13
+
+<h1> Serve para criar titulos</h1>
+<hr> Serve para adicionar uma linha horizontal abaixo do titulo
+<p> Serve para adicionar parágrafos</p>
+<br> Serve para quebrar a linha (pode ser usado no meio do parágrafo ou
+titulo
+
+VIDEO 14 
+
+COLOCAR EMOJI NO HTML:
+COLOCAR &#x1f593
+*1f593 significa o codigo do emoji
+*&#x significa a 'tag' que se usa para por emoji
+
+VIDEO 16
+
+Imagem.jpg = imagem compactada
+Imagem.png = imagem sem jundo
+
+VIDEO 18
+
+Usar a tag 'img' depois precionar as teclas ctrl + espaço
+
+VIDEO 19
+
+Para colocar icone ao lado do nome
+Imagem estar em PNG
+Acessar o site favicon.io
+transformar em modo icone
+usar a tag 'link:favicon' na parte 'head'
+
+VIDEO 24
+
+tag <pre> serve para adicionar ao site os espaçamentos conforme
+foi escrito o codigo.
+
+tag <code> serve para facilitar a leitura dos códigos, dando o mesmo 
+espaçamento para cada letra
+
+a tag <q> Coloca aspas na citação
+
+a tag <blockquote> serve para fazer citação com quebra de linha
+a tag <blockquote cite "algum link"> serve para ajudar no mecanismo de busca
+do google
+
+a tag <abbr> serve para dizer o que a palavra que está entre ela significa
+
+VIDEO 25
+
+<ol> serve para criar listas ordenadas 
+<ol type="1 ou A ou a ou I ou i">
+<li> serve para adicionar um item a lista
+
+<ul> serve para criar listas não ordenadas
+<ul type="disc(que é o padrão) ou circle(bolinha somente circulada) ou 
+square(quadrado preto)"
+
+VIDEO 26
+
+<dl> serve para criar lista de definições
+<dt> serve para criar o 'termo' a ser definido
+<dd> serve para explicar o 'termo'
+
+VIDEO 32
+
+<picture> serve para colocar as tags para flexibilizar as imagens
+<source midia : type> serve para direcionar o tamanho da imagem
+duvidas no exercicio 011
+
+VIDEO 33
+
+<audio src"" controls autoplay> Serve para adicionar um audio
+"controls" = é para mostrar os controles ao usuario
+"autoplay" = é para a musica auto iniciar(compativel com poucos 
+navegadores)
+
+<audio (preload), (autoplay), (controls), (loop)>
+  serve para adicionar "sources src"" type="audio/mp3"" e tentar carregar elas de 
+acordo como colocada
+</audio>
+"preload" = tem o (auto) que só termina de carregar tudo após a musica
+tem o (metadata) que carrega apenas o necessario
+e o (none) que não carrega nada sem ser pedido
+"loop" = serve para a musica tocada entrar em looping
+
+VIDEO 35
+
+<video> serve para adicionar videos. 
+mesma coisa do audio com as mesmas tags
+width "500" = serve para definir o tamanho do video
+poster "img" = serve para adicionar a capa do video antes de carrega-lo
+
+a tag <video> fica caro ao dono do site pois vai demandar muito
+trafego de dados
+
+VIDEO 38 ao 40
+
+@charset "UTF-8"; = para defenir os caracteres *OBRIGATORIO*
+
+selecionar a parte. Por exemplo
+body{
+   font-family = serve para colocar estilo na letra
+   font-size = serve para modificar o tamanho da letra por ex:20px
+}

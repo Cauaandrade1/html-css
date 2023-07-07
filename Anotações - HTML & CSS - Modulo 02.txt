@@ -1,0 +1,219 @@
+Modulo 01 CSS
+@charset "UTF-8"; = para defenir os caracteres *OBRIGATORIO*
+
+selecionar a parte. Por exemplo
+body{
+   font-family = serve para colocar estilo na letra
+   font-size = serve para modificar o tamanho da letra por ex:20px
+}
+
+	MODULO 02
+
+VIDEO 04
+
+Cores primarias: Vermelho, Amarelo e Azul
+
+Cores secundarios: Laranja, Verde e Violeta
+
+Cores terciarias: Amarelo-esverdiado; Amarelo-alaranjado
+vermelho-alaranjado; vermelho-arroxeado; azul-arroxeado
+azul-esverdeado.
+
+cores quentes: Amarelo, Amarelo-alaranjado, Laranja, vermelho-alaranjado,
+Vermelho, vermelho-arroxeado
+
+Paleta de cores: de 3 a 5 cores (fora branco e preto)
+
+Cores complementares = são cores em lados opostos na paleta (do video)
+geralmente dão um contraste mais interessante na escrita.
+
+Cores analogas = são 3 cores vizinhas 
+
+Cores intercaladas = é qndo se pula uma para pegar a seguinte
+
+Cores triardicas = é qndo se pula de 3 em 3 cores 
+
+Cores em quadrado = é qndo se pula de 2 em 2 para escolher 4 cores
+
+Monocromia = 1 cor se degradando com a saturação e iluminação da cor
+
+========================================================================
+
+Video 07
+
+/*
+background-image: linear-gradient(to right, white, blue)
+ 				(lado de escolha ex: right)
+*/
+
+Serve para criar degrade
+
+background-attachment: fixed; = serve para não rolar o site para baixo
+
+========================================================================
+
+VIDEO 08
+
+<main> = div especial, indica que o conteúdo é principal
+
+width = largura da caixa
+
+padding	= (TIPO A MARGEM) espaço lateral do texto dentro da caixa 
+
+margin = margem do texto (auto = PARA COLOCAR A CAIXA NO CENTRO)
+
+text-align = alinhamento do texto (center, end, justify, ...)
+
+border-radius = cantos da caixa arredondados
+
+box-shadow = sombra da caixa
+text-shadow = sombra do texto
+
+- parâmetros: tam. sombra p/ lado, tam. sombra p/ baixo, espalhamento, cor;
+Ex:
+box-shadow: 5px 5px 15px black;
+text-shadow: 1px 1px 2px rgba(129, 78, 5, 0.733);
+
+============================================================================
+
+VIDEO 12
+
+MEDIDA DE FONTES
+*medidas absolutas*
+cm, mm, in(polegada), px(pixel), pt(ponto), pc(pyca)
+NÃO MTO RECOMENDADO, POIS PODE SER DIVIRGENTE OS TAMANHOS EM ALGUNS
+APARELHOS
+
+*medidas relativas*
+em(TAMANHO DA LETRA MAIUSCULA), ex(TAMANHO LATERAL), rem, vw(porcentagem
+da view port), %
+
+============================================================================
+VIDEO 13
+
+Width = largura da caixa, video, etc.
+Heigth = Altura da caixa, video, etc.
+
+font-weigth = Peso da fonte (por em negrito)
+Tipos de peso = lighter, normal, bold e bolder
+
+font-style = para por o texto em italico
+text-decoration: underline = texto com sublinhado
+
+/*shorthand 
+- font-style -> font-weight -> font-size -> font family*/
+font: italic bolder 3em 'work sans', 'sans-serif'
+*/
+
+============================================================================
+video 15
+
+@font-face -> serve para colocar fontes externas baixadas que estão dentro
+da pasta
+
+============================================================================
+capitulo 15
+
+    em HTML é id = em CSS é # (só pode 1  elemento por página)
+    em HTML é class = em CSS é . (pode vários elementos)
+
+para colocar mais de uma classe basta dar espaço
+
+<span class="x"> Serve para adicionar uma classe a uma frase dentro
+do texto por exemplo </span>
+
+-----------------------------------------
+
+div = caixa de texto
+
+: (dois pontos) = representa uma pseudo classe
+
+exemplo de pseudo classe = hover
+
+hover = seria, quando eu passar o mouse encima...
+
++++++++++++++++++++++++++++++++++
+EX: 
+div:hover{
+   color: red
+}
+seria para quando eu passar o mouse encima o que estiver dentro da div ficar
+em vermelho.
++++++++++++++++++++++++++++++++++++++
+
+div > p = o simbolo de ">" seria o "filho" ou seja:
+"o paragrafo dentro da div..."
+
+displey = função dentro da div
+exemplos: 
+displey: none = para ficar oculto
+displey: block = para mostrar o que tem dentro
+
+----------------------------------------------------------------
+
+:visited = quando site já foi visitado...
+:active = quando clicar no (link, palavra, etc.)...
+
+text-decoration = decoração do texto, como sublinhado...
+
+---------------------------------------------------------------------
+
+# = id
+. = class
+: = pseudo-class
+:: = pseudo-element
+> =  children
+
+============================================================================
+capitulo 17
+
+heigh = altura
+width = largura
+padding = distancia da borda do conteúdo
+margin =  distancia da margem da borda
+outline = traçado/contorno da borda
+
+TIPOS DE CAIXA
+
+box-level = uma caixa que pula uma linha da ultima caixa e ocupa toda a 
+largura lateral, e quando termina seu conteúdo ele quebra linha (é a <DIV>)
+
+inline-box = uma caixa que continua o conteúdo sem pular linha, e quando
+termina tmb não se quebra linha (é o <SPAN>)
+
+
+----------------------------------------------------------------------------
+*BORDA É ENTRE O PADDING E MARGIN*
+a ordem para shorthand na borda é:
+
+border: (tamanho em px) (estilo) (cor)
+	   10px          solid    azul
+
+a ordem para shorthand no outline é:
+
+outline: (tamanho em px) (estilo) (cor)
+	      10px        dashed    azul
+
+-----------------------------------------------------------------
+
+header = cabeçalho
+nav = menu
+main = conteudo
+section = as seções do conteudo
+article = artigo da noticia
+aside = divisão do artigo (ex: usado para por nome do autor)
+footer = rodapé
+
+============================================================================
+capitulo 17
+
+:root = para adicionar variaveis em CSS
+
+ex:
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+:root{
+	--cor1: 	 #fdfdou
+	--fontprincipal: android
+      (nome da variavel) (o que vai ter dentro da variavel)
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
