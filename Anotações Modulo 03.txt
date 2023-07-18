@@ -1,0 +1,16 @@
+CAPITULO GITHUB:
+
+CAPITULO BACKGROUND:
+aula01
+BACKGROUND-IMAGE: url('ctrl + espaço')
+serve para colocar imagem de fundo
+
+aula02
+background-size: 100px 100px
+serve para determinar o tamanho das imagens de fundo(com esse exemplo se 
+repetira diversas vezes
+
+background-repeat:
+no-repeat = serve para repetir a imagem de fundo apenas 1 vez
+repeat-x =  serve para repetir a imagem de fundo apenas na horizontal
+repeat-y = serve para repetir a imagem de fundo apenas na vertical
