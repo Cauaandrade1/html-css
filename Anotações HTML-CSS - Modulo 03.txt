@@ -14,3 +14,16 @@ background-repeat:
 no-repeat = serve para repetir a imagem de fundo apenas 1 vez
 repeat-x =  serve para repetir a imagem de fundo apenas na horizontal
 repeat-y = serve para repetir a imagem de fundo apenas na vertical
+
+aula03
+background-position: top center
+Serve para definir onde será o ponto principal da imagem de fundo
+
+background-size
+100% 100% = exibe a imagem toda, porem fica com a imagem distorcida 
+
+contain = exibe toda a imagem na melhor resolução, porem cria bordas pretas
+em volta do conteudo conforme muda o tamanho. Ex: filme
+
+cover; exibe a imagem em 100% da viw port porem corta as beiras da imagem
+
