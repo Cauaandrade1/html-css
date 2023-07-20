@@ -15,7 +15,7 @@ no-repeat = serve para repetir a imagem de fundo apenas 1 vez
 repeat-x =  serve para repetir a imagem de fundo apenas na horizontal
 repeat-y = serve para repetir a imagem de fundo apenas na vertical
 
-aula03
+aula03 - 05
 background-position: top center
 Serve para definir onde será o ponto principal da imagem de fundo
 
@@ -26,4 +26,37 @@ contain = exibe toda a imagem na melhor resolução, porem cria bordas pretas
 em volta do conteudo conforme muda o tamanho. Ex: filme
 
 cover; exibe a imagem em 100% da viw port porem corta as beiras da imagem
+
+aula06
+background-attachment: fixed;
+Serve para deixar a imagem de fundo fixa, ou seja, não rola a imagem, soment
+o conteudo
+
+***Background ShortHand***
+            
+color > image > position > repeat > attanchment.
+[size] Não funciona no shorthand
+
+background: black url('Imagens/wallpaper002.jpg') center center 
+repeat-y cover fixed
+
+******
+
+aula07
+position: relative = usa-se para o background, ou seja, onde o conteudo
+vai sobrepor
+
+position: absolute = usa-se para a 'div' que vai sobrepor o fundo.
+O ABSOULUTO é para ser capaz de mexer na caixa
+
+*************************************
+
+left: 50%;
+top: 50%;
+
+transform: translate(-50%, -50%);
+
+***************************************** SERVE PARA CENTRALIZAR A DIV
+
+
 
