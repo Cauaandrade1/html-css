@@ -56,7 +56,19 @@ top: 50%;
 
 transform: translate(-50%, -50%);
 
-***************************************** SERVE PARA CENTRALIZAR A DIV
+SERVE PARA CENTRALIZAR A DIV
+
+*******************************************************************
+
+ 
+aula27
+
+        Hierarquia de tabelas (simples)
+        TABLE = TABELAS
+           TABBLE ROW= LINHA DE TABELA
+                TABBLE HEADER = CABEÇALHO DE TABELA
+                TABBLE DATA = DADO DE TABELA
+
 
 
 
