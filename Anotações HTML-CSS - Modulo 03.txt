@@ -69,6 +69,17 @@ aula27
                 TABBLE HEADER = CABEÇALHO DE TABELA
                 TABBLE DATA = DADO DE TABELA
 
+aula29
 
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
 
 
