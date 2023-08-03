@@ -82,4 +82,26 @@ aula29
                 TR, TD, TH
     -->
 
+aula31
+
+	efeito zebrado se põe usando
+	:nth-child(2n)  
+	ou
+	nth-child(odd ou even) 
+
+*(odd) significa impar, (even) par
+*2n significa pulando de 1 em 1 linha
+
+aula32
+
+para deixar o cabeçalho da tabela fixo, basta usar o
+
+
+	position do fundo: relative
+	e o position da cabeça: sticky
+	top: -1px
+	background color: cor do cabeçalho
+
+
+
 
