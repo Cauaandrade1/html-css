@@ -102,6 +102,15 @@ para deixar o cabeçalho da tabela fixo, basta usar o
 	top: -1px
 	background color: cor do cabeçalho
 
+aula38
 
+<colgroup>
+<col class"">
+<col class"" span="2">
+</colgroup>
+ serve para selecionar a coluna inteira de uma vez
+a cada <col> é a ordem da coluna
+
+o <span> serve para selecionar mais de uma coluna
 
 
