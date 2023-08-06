@@ -113,4 +113,8 @@ a cada <col> é a ordem da coluna
 
 o <span> serve para selecionar mais de uma coluna
 
+aula39
+
+"overflow-x" serve para criar uma rolagem lateral somente na caixa que tiver
+esse tag
 
