@@ -1,0 +1,5 @@
+aula04
+
+todo iframe vem por padrão 300x150
+
+o *scolling* é um parametro que funciona somente em alguns naveadores ou SI para bloquear a barra de rolagem
