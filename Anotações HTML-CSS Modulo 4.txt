@@ -2,4 +2,17 @@ aula04
 
 todo iframe vem por padrão 300x150
 
-o *scolling* é um parametro que funciona somente em alguns naveadores ou SI para bloquear a barra de rolagem
+o *scolling* é um parametro que funciona somente em alguns 
+naveadores ou SI para bloquear a barra de rolagem
+
+aula05
+
+para exibir links com opção de escolha dentro do iframe, basta colocar
+um "name" no iframe. E no link colocar um target="nome do name"
+
+aula06
+
+o parametro 
+srcdoc="" serve para colocar HTML dentro dele 
+ex:
+srcdoc="<h1>Olá mundo!</h1>"
