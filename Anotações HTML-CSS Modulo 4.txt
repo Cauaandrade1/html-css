@@ -16,3 +16,25 @@ o parametro
 srcdoc="" serve para colocar HTML dentro dele 
 ex:
 srcdoc="<h1>Olá mundo!</h1>"
+
+
+
+CAPITULO 23 - Formulários
+
+
+form001
+
+tag <form> = serve para criar um formulário
+
+tag <form autocomplete="off"> = o parametro serve para desligar as sugestões
+de nome
+
+tag input:text = serve para criar um "quadrado" para digitar algo
+
+tag unput:submit = serve para criar um botão de envio
+
+TAG action="cadastro.js" = serve para enviar o que foi escrito no forms para
+a linguagem de programação
+
+TAG label for="id do input" <- tag usada para relacionar a "pergunta" com
+ a caixa de resposta
