@@ -38,3 +38,12 @@ a linguagem de programação
 
 TAG label for="id do input" <- tag usada para relacionar a "pergunta" com
  a caixa de resposta
+
+---------------------
+GET E POST = são metodos usados no "form" para esconder ou aparecer na url
+os dados do input
+
+GET = usar quando os dados nao forem sensiveis (não se pode passar de 3mil
+caracteres uma resposta, e não podem ser arquivos, como foto, pdf e etc.)
+
+POST = usar para dados sensiveis
