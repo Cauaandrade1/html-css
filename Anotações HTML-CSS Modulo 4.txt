@@ -41,9 +41,17 @@ TAG label for="id do input" <- tag usada para relacionar a "pergunta" com
 
 ---------------------
 GET E POST = são metodos usados no "form" para esconder ou aparecer na url
-os dados do input
+os dados do input, usados com a tag = "method"
 
 GET = usar quando os dados nao forem sensiveis (não se pode passar de 3mil
 caracteres uma resposta, e não podem ser arquivos, como foto, pdf e etc.)
 
 POST = usar para dados sensiveis
+
+----------------------
+TAG input: reset =  para criar um botão de limpar
+TAG input: password = para criar área de senha
+required = é um parametro para obrigar a digitar naquele campo
+minlength="8" maxlength="20" = serve para determinar o minimo e o maximo de
+digitos
+PARAMETRO placehoader = serve para dar uma "dica" para o usuário
