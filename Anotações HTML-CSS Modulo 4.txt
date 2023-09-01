@@ -55,3 +55,21 @@ required = é um parametro para obrigar a digitar naquele campo
 minlength="8" maxlength="20" = serve para determinar o minimo e o maximo de
 digitos
 PARAMETRO placehoader = serve para dar uma "dica" para o usuário
+
+autocomplete dentro do input = define uma opção para o usuário, como nickname
+usarname, new password, current-password etc.
+
+----------------------------
+
+parametros para input:
+
+max e min =  para determinar a quantidade maxima que pode ser escrita em
+numeros!
+
+step = serve para identificar de quantos em quantos ele pode ser escrito
+
+value = serve para definir um horario, mes, dia, etc.
+
+input:month = serve para definir o mês e o ano
+input:date = serve para definir o dia, mês e ano
+input:time = serve para definir a hora
