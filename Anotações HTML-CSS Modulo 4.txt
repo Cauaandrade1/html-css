@@ -73,3 +73,16 @@ value = serve para definir um horario, mes, dia, etc.
 input:month = serve para definir o mês e o ano
 input:date = serve para definir o dia, mês e ano
 input:time = serve para definir a hora
+input:tel = serve para pedir o telefone
+input:email = serve para pedir o email com @
+
+=================================================================
+
+fieldset = serve para criar uma borda em volta dos "input"
+legend = serve para dar o titulo da "borda"
+
+====================================================================
+
+input:checkbox = serve para criar uma caixa para o usúario marcar
+input:radio = serve para criar um bolinha para o usúario marcar, porém
+para funcionar corretamente o "name" tem que ser igual para todos da tag
