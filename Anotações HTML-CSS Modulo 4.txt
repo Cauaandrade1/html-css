@@ -26,8 +26,8 @@ form001
 
 tag <form> = serve para criar um formulário
 
-tag <form autocomplete="off"> = o parametro serve para desligar as sugestões
-de nome
+tag <form autocomplete="off"> = o parametro serve para desligar as 
+sugestões de nome
 
 tag input:text = serve para criar um "quadrado" para digitar algo
 
@@ -56,8 +56,8 @@ minlength="8" maxlength="20" = serve para determinar o minimo e o maximo de
 digitos
 PARAMETRO placehoader = serve para dar uma "dica" para o usuário
 
-autocomplete dentro do input = define uma opção para o usuário, como nickname
-usarname, new password, current-password etc.
+autocomplete dentro do input = define uma opção para o usuário, como 
+nickname, usarname, new password, current-password etc.
 
 ----------------------------
 
@@ -86,3 +86,31 @@ legend = serve para dar o titulo da "borda"
 input:checkbox = serve para criar uma caixa para o usúario marcar
 input:radio = serve para criar um bolinha para o usúario marcar, porém
 para funcionar corretamente o "name" tem que ser igual para todos da tag
+
+========================================================================
+
+input:file = serve para colocar um arquivo de foto (só pode ser usado no 
+method "post")
+
+input:cor = serve para definir uma cor
+input:range = serve para criar uma régua para definir os niveis de 
+satisfação
+
+=====================================================================
+
+++++++++++++++++++++++++++++++++++++++++++++
+
+select = serve para criar uma caixa de seleção
+option = serve para criar as opções das caixas de seleção
+optgroup = serve para criar um grupo de opções dentro da própria caixa
+
+datalist = serve para criar uma caixa de seleção semelhante ao "select" mas
+esse se usa com a tag "input:text" e esse o usuário pode escrever que irá
+aparecer as opções com nomes semelhantes
+
+textarea = serve para criar uma aréa para o usuário escrever uma mensagem 
+por exemplo
+
++++++++++++++++++++++++++++++++++++++++++
+
+===========================================================================
