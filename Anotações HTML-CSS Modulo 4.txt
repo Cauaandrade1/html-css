@@ -114,3 +114,17 @@ por exemplo
 +++++++++++++++++++++++++++++++++++++++++
 
 ===========================================================================
+
+media query são os tipos de exibições. Exemplo um site para ser impresso 
+não precisa ter certas informações
+
+==========================================================================
+
+link:css
+ media = "screen" = é um type de media query onde você fará o css da tela
+ principal
+
+ media = "print" = é um type de media query onde você fará o css da tela de 
+impressão
+
+===========================================================================
