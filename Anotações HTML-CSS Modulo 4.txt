@@ -128,3 +128,12 @@ link:css
 impressão
 
 ===========================================================================
+
+media query = media type = media features
+	     (tipo de tela)   (caracteristica de tela)
+
+media features como fazer:
+
+link:css estilos/empe  media = "screen and (orientation: landscap)"
+
+a media features sempre com parenteses e dentro da media type
