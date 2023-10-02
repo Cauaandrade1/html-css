@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css" media="all">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <i id="burguer"><span class="material-icons" onclick="clickMenu()">menu</span></i>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -21,11 +23,21 @@
     </header>
     <main>
         <article>
-            <h1>Testando Media Queries</h1><br>
+            <h2>Testando Media Queries</h2><br>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda aperiam culpa aspernatur autem. Quaerat inventore, dolorem obcaecati labore maiores animi, accusantium exercitationem aut architecto nisi iste commodi? Reprehenderit, sed accusamus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi commodi provident assumenda eos voluptatem quae reiciendis iure accusantium tenetur necessitatibus est ducimus esse vero, culpa saepe illum aut, eveniet sunt.</p><br>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas aliquid autem amet consectetur unde non, illum omnis eveniet perspiciatis ipsam corrupti aut doloremque aspernatur ea suscipit expedita, vero veniam quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore optio ipsum dolores obcaecati voluptatum eligendi ullam amet eius aperiam consectetur iure quaerat corporis inventore sit repudiandae sapiente, ipsam quos aliquam?</p><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ullam! Excepturi, ea error laborum amet, maiores commodi et iste impedit magnam deleniti perspiciatis quae cupiditate nobis accusamus animi consectetur quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellat sed, nostrum sapiente incidunt quam harum enim, veniam excepturi, suscipit debitis magnam animi cumque repudiandae soluta mollitia laborum doloribus eaque.</p>
         </article>
     </main>
+
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block'){
+                 itens.style.display = 'none'
+           } else {
+                itens.style.display = 'block'
+           }
+        }
+    </script>
 </body>
 </html>
